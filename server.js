@@ -15,4 +15,5 @@ require('./app/routes/note_routes')(app)
 
 app.listen(process.env.PORT, () => {
     console.log(`server is running on port ${process.env.PORT}`)
+    console.log(`db configuration using ${process.env.DB_HOST}`)
 })
